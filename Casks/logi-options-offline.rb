@@ -1,6 +1,6 @@
 cask "logi-options-offline" do
-  version "1.85.655119"
-  sha256 "dcc32cfa8b499efb0115a546b9c386cc05304acd2c87778a0250c1d8b9a3fff5"
+  version "1.89.705126"
+  sha256 "91f7dec6f68c62d8c4b33d8d8da3cb9917fb1141323a34fe2444656bdd4420c1"
 
   url "https://download01.logi.com/web/ftp/pub/techsupport/optionsplus/logioptionsplus_installer_offline.zip"
   name "Logi Options Offline"
