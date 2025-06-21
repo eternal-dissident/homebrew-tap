@@ -10,7 +10,8 @@ cask "logi-options-offline" do
   livecheck do
     skip "Offline version"
   end
-
+  
+  auto_updates true
   depends_on macos: ">= :catalina"
 
   # Script is copied from the official Logi Options cask
