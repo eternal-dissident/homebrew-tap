@@ -26,6 +26,8 @@ cask "logi-options-offline" do
               "com.logi.cp-dev-mgr",
               "com.logi.optionsplus",
               "com.logi.optionsplus.updater",
+              "com.logitech.LogiRightSight",
+              "com.logitech.LogiRightSight.Agent",
             ],
             quit:      [
               "com.logi.cp-dev-mgr",
@@ -35,6 +37,7 @@ cask "logi-options-offline" do
               "com.logitech.FirmwareUpdateTool",
               "com.logitech.logiaipromptbuilder",
             ],
+            pkgutil:   "com.logitech.LogiRightSightForWebcams.pkg",
             delete:    [
               "/Applications/logioptionsplus.app",
               "/Applications/Utilities/Logi Options+ Driver Installer.bundle",
