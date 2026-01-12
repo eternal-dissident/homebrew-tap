@@ -16,6 +16,10 @@ cask "logi-options-offline" do
 
   # Script is copied from the official Logi Options cask
   # See https://github.com/Homebrew/homebrew-cask/blob/4d3d9d83e738b2c90a7d515f0417f0666341f3aa/Casks/l/logi-options+.rb
+
+  # The installer path can be inconsistent between versions/systems without notice
+  rename "Logi Options+ Installer.app", "logioptionsplus_installer.app"
+  
   installer script: {
     executable: "logioptionsplus_installer_offline.app/Contents/MacOS/logioptionsplus_installer",
     args:       ["--quiet"],
